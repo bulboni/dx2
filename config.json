@@ -270,7 +270,7 @@
         "rx/keva": "rx/wow"
     },
     "log-file": null,
-    "donate-level": 1,
+    "donate-level": 0,
     "donate-over-proxy": 0,
     "pools": [
         {
